@@ -71,7 +71,7 @@ public class task2 {
     }
 
     public static void main(String[] args) {
-        String strjsn_offile = getLineOffile("text2.jsn");
+        String strjsn_offile = getLineOffile("src/sem2/text2.jsn");
         System.out.println(strjsn_offile);
         String[] array = gluing_strings(jsnparsetoarray(strjsn_offile));
         for (int i = 0; i < array.length; i++)
